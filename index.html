@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UPDATING CSS VARIABLE WITH JS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+<h2>Update <span class="hl">CSS</span> Variables with <span class="hl">JS</span></h2>
+
+<div class="control">
+  <label for="spacing">Spacing:</label>
+  <input type="range" name="spacing" min="10" max="200" value="10" data-sizing = "px">
+
+  <label for="blur">Blur:</label>
+  <input type="range" name="blur" min="0" max="25"value="10" data-sizing = "px">
+
+
+  <label for="base">Base Color:</label>
+  <input type="color" name="base" value="#FCE22A">
+
+  <label for="border">Border Radius:</label>
+  <input type="range" name="border" min="0" max="50" value="10" data-sizing = "%">
+
+  <label for="rotate">Rotate:</label>
+  <input type="range" name="rotate" min="0" max="360" value="0" data-sizing = "deg">
+</div>
+
+<img src="images/starboy.jpg" alt="">
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

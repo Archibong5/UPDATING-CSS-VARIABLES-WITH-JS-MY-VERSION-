@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  color: white;
+  background: black;
+  font-size: 4rem;
+}
+
+.control{
+  margin: 0 0 50px 0;
+}
+
+:root{
+  --base: #FCE22A;
+  --spacing: 10px;
+  --blur:10px;
+  --border: 10%;
+  --rotate: 0deg;
+}
+
+
+img{
+  height: 30rem;
+  width: 30rem;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  border-radius: var(--border);
+  transform: rotate(var(--rotate));
+
+}
+
+
+.hl{
+  color: var(--base);
+
+}
+
+input[type= range]{
+  accent-color: var(--base);
+}
